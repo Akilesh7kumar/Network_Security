@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: Network_Security
+Version: 0.0.1
+Author: Akilesh
+Author-email: akilesh.ramkumar@gmail.com
+Requires-Dist: python-dotenv
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: certifi
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

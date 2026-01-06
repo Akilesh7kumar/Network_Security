@@ -1,5 +1,4 @@
 python-dotenv
-numpy 
+numpy
 pandas
 certifi
--e .
