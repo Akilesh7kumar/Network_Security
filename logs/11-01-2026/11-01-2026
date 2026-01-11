@@ -1,0 +1,24 @@
+[ 2026-01-11 11:28:38,680 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:30:33,179 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:33:19,502 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:35:45,136 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:39:55,138 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:40:16,009 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:40:51,964 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:43:29,090 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:45:04,099 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:46:49,125 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:48:34,884 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:48:56,679 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:54:23,523 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:54:55,009 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:56:27,471 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:56:29,229 ] 69 root - INFO - Performed train test split on the dataframe
+[ 2026-01-11 11:56:29,230 ] 71 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-01-11 11:56:29,230 ] 79 root - INFO - Exporting train and test file path.
+[ 2026-01-11 11:56:29,347 ] 88 root - INFO - Exported train and test file path.
+[ 2026-01-11 11:56:55,324 ] 13 root - INFO - Initiating data ingestion
+[ 2026-01-11 11:56:57,248 ] 69 root - INFO - Performed train test split on the dataframe
+[ 2026-01-11 11:56:57,248 ] 71 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-01-11 11:56:57,248 ] 79 root - INFO - Exporting train and test file path.
+[ 2026-01-11 11:56:57,378 ] 88 root - INFO - Exported train and test file path.

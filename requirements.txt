@@ -4,3 +4,4 @@ pandas
 certifi
 pymongo
 -e .
+scikit-learn

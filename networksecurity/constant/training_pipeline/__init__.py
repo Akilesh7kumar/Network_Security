@@ -7,11 +7,10 @@ Defining common constant variable for training
 """
 TARGET_COLUMN = "Result"
 PIPELINE_NAME: str = "NetworkSecurity"
-ARTIFACT_DIR: str ="phisingData.csv"
+ARTIFACT_DIR: str ="Artifacts"
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
-
-
+FILE_NAME: str = "phisingData.csv"
 """
 DATA INGESTION REALTED CONSTANT START WITH DATA INGESTION NAME
 """
