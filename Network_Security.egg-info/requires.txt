@@ -4,3 +4,4 @@ pandas
 certifi
 pymongo
 scikit-learn
+yaml
