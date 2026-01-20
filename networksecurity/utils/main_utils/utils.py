@@ -41,3 +41,23 @@ def save_object(file_path:str,obj : object)->None:
         logging.info('Exited save method object')
     except Exception  as e:
         raise NetworkSecurityException(e,sys)
+    
+def load_object(file_path:str,)->object:
+    try:
+        if not os.path.exists(file_path):
+            raise Exception (f"The file {file_path} not present")
+        with open (file_path,'rb') as file_obj:
+            print(file_obj)
+            return pickle.load(file_obj)
+    except Exception as e:
+        raise NetworkSecurityException (e,sys)
+
+def load_numpy_array(file_path:str):
+    """
+    Load numpy array data from file
+    """ 
+    try:
+        with open(file_path,'rb') as file_obj:
+            return np.load(file_obj)
+    except Exception as e:
+        raise NetworkSecurityException(e,sys) from e
