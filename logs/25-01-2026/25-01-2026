@@ -1,0 +1,158 @@
+[ 2026-01-25 11:14:30,358 ] 17 root - INFO - Initiating data ingestion
+[ 2026-01-25 11:14:35,253 ] 69 root - INFO - Performed train test split on the dataframe
+[ 2026-01-25 11:14:35,256 ] 71 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-01-25 11:14:35,279 ] 79 root - INFO - Exporting train and test file path.
+[ 2026-01-25 11:14:35,386 ] 88 root - INFO - Exported train and test file path.
+[ 2026-01-25 11:14:35,464 ] 22 root - INFO - Initiate Data Validation
+[ 2026-01-25 11:14:35,629 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 11:14:35,629 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 11:14:35,629 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 11:14:35,629 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 11:14:35,630 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 11:14:35,630 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 11:14:36,060 ] 24 root - INFO - data Validation Completed
+[ 2026-01-25 11:14:36,062 ] 27 root - INFO - Data transformation started
+[ 2026-01-25 11:14:36,062 ] 45 root - INFO - Initiatng Data Transformation
+[ 2026-01-25 11:14:36,062 ] 47 root - INFO - Starting data transformation
+[ 2026-01-25 11:14:36,100 ] 35 root - INFO - get_data_transformer_object
+[ 2026-01-25 11:14:36,113 ] 38 root - INFO - Initialize KNN Imputer params with KNNImputer(n_neighbors=3)
+[ 2026-01-25 11:14:36,129 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 11:14:36,131 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 11:14:36,132 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 11:14:36,133 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 11:14:36,134 ] 31 root - INFO - DataTransformationArtifact(transformed_object_file_path='Artifacts\\25-Jan-2026\\data_transformation\\transformed_object\\preprocessing.pkl', transformed_train_file_path='Artifacts\\25-Jan-2026\\data_transformation\\transformed\\train.npy', transformed_test_file_path='Artifacts\\25-Jan-2026\\data_transformation\\transformed\\test.npy')
+[ 2026-01-25 11:14:36,135 ] 32 root - INFO - model training started
+[ 2026-01-25 11:20:56,089 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 11:20:56,090 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 11:20:56,090 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 11:20:56,143 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 11:20:56,147 ] 97 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\25-Jan-2026\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9915966386554622, precision_score=0.9890931125025247, recall_score=0.9941128704831507), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9745865268253328, precision_score=0.967948717948718, recall_score=0.9813160032493907))
+[ 2026-01-25 11:20:56,151 ] 36 root - INFO - model training artifact created
+[ 2026-01-25 12:06:21,711 ] 31 root - INFO - Start Data Ingestion
+[ 2026-01-25 12:08:21,171 ] 31 root - INFO - Start Data Ingestion
+[ 2026-01-25 12:12:08,582 ] 31 root - INFO - Start Data Ingestion
+[ 2026-01-25 12:16:55,294 ] 31 root - INFO - Start Data Ingestion
+[ 2026-01-25 12:16:56,411 ] 31 root - INFO - Start Data Ingestion
+[ 2026-01-25 12:18:26,811 ] 31 root - INFO - Start Data Ingestion
+[ 2026-01-25 12:20:06,456 ] 31 root - INFO - Start Data Ingestion
+[ 2026-01-25 12:20:09,042 ] 31 root - INFO - Start Data Ingestion
+[ 2026-01-25 12:25:13,795 ] 17 root - INFO - Initiating data ingestion
+[ 2026-01-25 12:25:17,790 ] 69 root - INFO - Performed train test split on the dataframe
+[ 2026-01-25 12:25:17,790 ] 71 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-01-25 12:25:17,791 ] 79 root - INFO - Exporting train and test file path.
+[ 2026-01-25 12:25:17,856 ] 88 root - INFO - Exported train and test file path.
+[ 2026-01-25 12:25:17,881 ] 22 root - INFO - Initiate Data Validation
+[ 2026-01-25 12:25:17,948 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 12:25:17,948 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 12:25:17,948 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 12:25:17,948 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 12:25:17,948 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 12:25:17,948 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 12:25:18,241 ] 24 root - INFO - data Validation Completed
+[ 2026-01-25 12:25:18,242 ] 27 root - INFO - Data transformation started
+[ 2026-01-25 12:25:18,242 ] 45 root - INFO - Initiatng Data Transformation
+[ 2026-01-25 12:25:18,242 ] 47 root - INFO - Starting data transformation
+[ 2026-01-25 12:25:18,264 ] 35 root - INFO - get_data_transformer_object
+[ 2026-01-25 12:25:18,265 ] 38 root - INFO - Initialize KNN Imputer params with KNNImputer(n_neighbors=3)
+[ 2026-01-25 12:25:18,316 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 12:25:18,318 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 12:25:18,318 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 12:25:18,321 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 12:25:18,322 ] 31 root - INFO - DataTransformationArtifact(transformed_object_file_path='Artifacts\\25-Jan-2026\\data_transformation\\transformed_object\\preprocessing.pkl', transformed_train_file_path='Artifacts\\25-Jan-2026\\data_transformation\\transformed\\train.npy', transformed_test_file_path='Artifacts\\25-Jan-2026\\data_transformation\\transformed\\test.npy')
+[ 2026-01-25 12:25:18,322 ] 32 root - INFO - model training started
+[ 2026-01-25 12:29:21,861 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 12:29:21,862 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 12:29:21,862 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 12:29:21,871 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 12:29:21,871 ] 97 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\25-Jan-2026\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9915322580645162, precision_score=0.9909329034857949, recall_score=0.9921323381077265), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9685169842584921, precision_score=0.9629324546952224, recall_score=0.9741666666666666))
+[ 2026-01-25 12:29:21,872 ] 36 root - INFO - model training artifact created
+[ 2026-01-25 12:31:48,162 ] 31 root - INFO - Start Data Ingestion
+[ 2026-01-25 12:32:02,980 ] 31 root - INFO - Start Data Ingestion
+[ 2026-01-25 12:35:54,461 ] 31 root - INFO - Start data Ingestion
+[ 2026-01-25 12:35:58,532 ] 69 root - INFO - Performed train test split on the dataframe
+[ 2026-01-25 12:35:58,532 ] 71 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-01-25 12:35:58,533 ] 79 root - INFO - Exporting train and test file path.
+[ 2026-01-25 12:35:58,655 ] 88 root - INFO - Exported train and test file path.
+[ 2026-01-25 12:35:58,655 ] 34 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\25-Jan-2026\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\25-Jan-2026\\data_ingestion\\ingested\\test.csv')
+[ 2026-01-25 12:35:58,704 ] 44 root - INFO - Initiate the data Validation
+[ 2026-01-25 12:35:58,782 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 12:35:58,783 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 12:35:58,783 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 12:35:58,783 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 12:35:58,783 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 12:35:58,783 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 12:35:59,110 ] 45 root - INFO - Initiatng Data Transformation
+[ 2026-01-25 12:35:59,111 ] 47 root - INFO - Starting data transformation
+[ 2026-01-25 12:35:59,162 ] 35 root - INFO - get_data_transformer_object
+[ 2026-01-25 12:35:59,187 ] 38 root - INFO - Initialize KNN Imputer params with KNNImputer(n_neighbors=3)
+[ 2026-01-25 12:35:59,205 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 12:35:59,208 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 12:35:59,208 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 12:35:59,212 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 12:41:17,917 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 12:41:17,917 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 12:41:17,918 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 12:41:17,923 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 12:41:17,924 ] 97 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\25-Jan-2026\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9913236481033091, precision_score=0.987537688442211, recall_score=0.9951387482276687), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9772727272727273, precision_score=0.9678456591639871, recall_score=0.9868852459016394))
+[ 2026-01-25 14:37:15,815 ] 108 fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+[ 2026-01-25 14:37:40,035 ] 108 fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+[ 2026-01-25 15:48:37,782 ] 34 root - INFO - Start data Ingestion
+[ 2026-01-25 15:48:43,031 ] 69 root - INFO - Performed train test split on the dataframe
+[ 2026-01-25 15:48:43,031 ] 71 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-01-25 15:48:43,032 ] 79 root - INFO - Exporting train and test file path.
+[ 2026-01-25 15:48:43,219 ] 88 root - INFO - Exported train and test file path.
+[ 2026-01-25 15:48:43,222 ] 37 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\25-Jan-2026\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\25-Jan-2026\\data_ingestion\\ingested\\test.csv')
+[ 2026-01-25 15:48:43,262 ] 47 root - INFO - Initiate the data Validation
+[ 2026-01-25 15:48:43,360 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 15:48:43,360 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 15:48:43,360 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 15:48:43,360 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 15:48:43,360 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 15:48:43,360 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 15:48:43,959 ] 45 root - INFO - Initiatng Data Transformation
+[ 2026-01-25 15:48:43,960 ] 47 root - INFO - Starting data transformation
+[ 2026-01-25 15:48:44,038 ] 35 root - INFO - get_data_transformer_object
+[ 2026-01-25 15:48:44,145 ] 38 root - INFO - Initialize KNN Imputer params with KNNImputer(n_neighbors=3)
+[ 2026-01-25 15:48:44,165 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 15:48:44,169 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 15:48:44,169 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 15:48:44,173 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 15:57:12,311 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 15:57:12,312 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 15:57:12,312 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 15:57:12,371 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 15:57:12,371 ] 97 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\25-Jan-2026\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9909632368042719, precision_score=0.9903530377668309, recall_score=0.991574188244965), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9803012746234068, precision_score=0.977657935285054, recall_score=0.9829589465530596))
+[ 2026-01-25 16:13:12,503 ] 34 root - INFO - Start data Ingestion
+[ 2026-01-25 16:13:17,645 ] 69 root - INFO - Performed train test split on the dataframe
+[ 2026-01-25 16:13:17,645 ] 71 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-01-25 16:13:17,645 ] 79 root - INFO - Exporting train and test file path.
+[ 2026-01-25 16:13:17,858 ] 88 root - INFO - Exported train and test file path.
+[ 2026-01-25 16:13:17,860 ] 37 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\25-Jan-2026\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\25-Jan-2026\\data_ingestion\\ingested\\test.csv')
+[ 2026-01-25 16:13:17,980 ] 47 root - INFO - Initiate the data Validation
+[ 2026-01-25 16:13:18,029 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 16:13:18,030 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 16:13:18,030 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 16:13:18,030 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 16:13:18,030 ] 29 root - INFO - Required no of columns 2
+[ 2026-01-25 16:13:18,030 ] 30 root - INFO - The DF no of columns 31
+[ 2026-01-25 16:13:18,378 ] 45 root - INFO - Initiatng Data Transformation
+[ 2026-01-25 16:13:18,378 ] 47 root - INFO - Starting data transformation
+[ 2026-01-25 16:13:18,464 ] 35 root - INFO - get_data_transformer_object
+[ 2026-01-25 16:13:18,567 ] 38 root - INFO - Initialize KNN Imputer params with KNNImputer(n_neighbors=3)
+[ 2026-01-25 16:13:18,589 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 16:13:18,594 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 16:13:18,594 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 16:13:18,597 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 16:22:32,060 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 16:22:32,060 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 16:22:32,060 ] 39 root - INFO - Enter save object method of mainUtils class
+[ 2026-01-25 16:22:32,101 ] 43 root - INFO - Exited save method object
+[ 2026-01-25 16:22:32,101 ] 97 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\25-Jan-2026\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9909690512430238, precision_score=0.9892625607779578, recall_score=0.9926814393169343), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9786720321931589, precision_score=0.97514033680834, recall_score=0.9822294022617124))

@@ -6,3 +6,6 @@ pymongo
 -e .
 scikit-learn
 yaml
+mlflow
+dagshub
+fast-api

@@ -10,6 +10,7 @@ Requires-Dist: certifi
 Requires-Dist: pymongo
 Requires-Dist: scikit-learn
 Requires-Dist: yaml
+Requires-Dist: mlflow
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist

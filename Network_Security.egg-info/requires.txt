@@ -5,3 +5,4 @@ certifi
 pymongo
 scikit-learn
 yaml
+mlflow
