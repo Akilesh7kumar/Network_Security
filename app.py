@@ -67,3 +67,9 @@ async def predict_route(request:Request,file:UploadFile = File(...)):
 if __name__== '__main__':
     app_run(app,host='0.0.0.0',port=8000)
  
+
+
+## curl -fsSL https://get.docker.com -o get-docker.sh
+## sudo sh get-docker.sh
+## sudo usermod -aG docker ubuntu
+## newgrp docker
