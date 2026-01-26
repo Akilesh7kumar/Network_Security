@@ -1,0 +1,11 @@
+python-dotenv
+numpy 
+pandas
+certifi
+pymongo
+-e .
+scikit-learn
+yaml
+mlflow
+dagshub
+fast-api
